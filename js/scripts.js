@@ -6,5 +6,6 @@ $(document).ready(function(){
 
     $("#postcard").show();
     event.preventDefault();
+    $(".btn").attr("disabled", true);
   });
 });
