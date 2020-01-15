@@ -1,3 +1,34 @@
+h1{
+  text-align: center;
+}
+
+h2{
+  margin: auto;
+  margin-top: 20px;
+}
+
+.btn{
+  margin-bottom: 20px;
+}
+
+.postcardHeader{
+  display: flex;
+  justify-content: flex-end;
+}
+
 #postcard {
   display: none;
+  min-height: 600px;
+  border: dashed 5px red;
+}
+
+#stamp{
+  display: flex;
+  height: 125px;
+}
+
+#address{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
